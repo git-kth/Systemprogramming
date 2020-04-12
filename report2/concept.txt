@@ -1,0 +1,19 @@
+1. Synchronous / Asynchronous
+
+Synchronous
+	호출한 함수가 호출된 함수에 의해 영향을 끼치는 경우를 의미한다.
+Asynchronous
+	호출한 함수가 호출된 함수에 의해 영향을 끼치지 않는 경우를 의미한다.
+
+2. Blocking / Non-Blocking
+
+Blocking
+	호출한 함수가 호출된 함수가 리턴될 때까지 동작못하는 경우를 의미한다.
+Non-Blocking
+	호출한 함수가 호출된 함수가 리턴되든 말든 자신의 동작을 하는 경우를 의미한다.
+
+3. Example
+
+Non-Blocking & Asynchronous
+	호출한 함수가 동작 중 함수를 호출했을 때 그 함수(호출된 함수)가 결과에 영향을 끼치지 않으니(Asynchronous)
+	자신의 동작을 계속 이어간다(Non-Blocking).  
