@@ -1,0 +1,5 @@
+#!/bin/bash
+echo The time and and date are:
+date
+echo Display Directory list:
+ls
